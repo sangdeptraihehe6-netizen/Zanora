@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d1d">
+  <meta name="description" content="Privacy Policy for Zinora: Light Rush">
+  <title>Privacy Policy — Zinora: Light Rush</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080b18; --panel: rgba(17, 24, 48, .86); --line: rgba(137, 160, 255, .19);
+      --text: #f3f5ff; --muted: #a8b1d0; --cyan: #63f4ff; --violet: #9a7bff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; color: var(--text); font: 16px/1.7 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: radial-gradient(ellipse at 12% 5%, rgba(70, 73, 190, .25), transparent 34%),
+                  radial-gradient(ellipse at 92% 18%, rgba(27, 200, 224, .13), transparent 30%), var(--bg);
+    }
+    body::before {
+      content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .18;
+      background-image: linear-gradient(rgba(140,160,255,.08) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(140,160,255,.08) 1px, transparent 1px);
+      background-size: 42px 42px; mask-image: linear-gradient(to bottom, black, transparent 75%);
+    }
+    a { color: var(--cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .shell { width: min(1100px, calc(100% - 32px)); margin: auto; position: relative; }
+    header { padding: 24px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: .02em; }
+    .logo { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 13px;
+      color: #06101d; background: linear-gradient(135deg, var(--cyan), var(--violet)); box-shadow: 0 0 28px #5e8dff45; }
+    .tag { color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+    .hero { padding: clamp(46px, 8vw, 96px) 0 44px; max-width: 800px; }
+    .eyebrow { color: var(--cyan); text-transform: uppercase; letter-spacing: .22em; font-size: 12px; font-weight: 800; }
+    h1 { font-size: clamp(38px, 7vw, 70px); line-height: 1.04; letter-spacing: -.045em; margin: 14px 0 20px; }
+    h1 span { color: transparent; background: linear-gradient(100deg, var(--cyan), #b8a2ff 72%); background-clip: text; }
+    .lead { color: var(--muted); font-size: clamp(16px, 2vw, 19px); max-width: 660px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 25px; }
+    .pill { border: 1px solid var(--line); background: #111831aa; border-radius: 10px; padding: 8px 12px; color: #dce4ff; font-size: 13px; }
+    .layout { display: grid; grid-template-columns: 245px minmax(0, 1fr); gap: 22px; align-items: start; padding-bottom: 64px; }
+    aside { position: sticky; top: 18px; border: 1px solid var(--line); border-radius: 18px; padding: 18px; background: var(--panel); backdrop-filter: blur(14px); }
+    aside strong { display: block; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .14em; margin-bottom: 10px; }
+    aside a { display: block; padding: 8px 10px; color: #cbd4f3; border-radius: 8px; font-size: 14px; }
+    aside a:hover { background: #ffffff0b; text-decoration: none; color: white; }
+    main { min-width: 0; }
+    .section { padding: clamp(20px, 4vw, 34px); margin-bottom: 16px; border: 1px solid var(--line); border-radius: 18px;
+      background: linear-gradient(145deg, rgba(20, 28, 55, .92), rgba(12, 17, 35, .88)); box-shadow: 0 12px 40px #00000012; scroll-margin-top: 20px; }
+    h2 { margin: 0 0 14px; font-size: 22px; letter-spacing: -.02em; }
+    h2::before { content: ""; display: inline-block; width: 5px; height: 21px; border-radius: 4px; margin-right: 11px; vertical-align: -3px; background: linear-gradient(var(--cyan), var(--violet)); }
+    p { margin: 10px 0; color: #d0d7ef; }
+    ul { padding-left: 22px; color: #d0d7ef; }
+    li { padding: 3px 0; }
+    .note { border-left: 3px solid var(--cyan); padding: 12px 15px; margin-top: 14px; border-radius: 0 10px 10px 0; background: #63f4ff0a; color: #dce8ff; }
+    .contact { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 18px; }
+    .contact-link { display: inline-block; padding: 10px 15px; border-radius: 10px; color: #06101d; font-weight: 800; background: linear-gradient(100deg, var(--cyan), #b8a2ff); }
+    footer { border-top: 1px solid var(--line); padding: 24px 0 34px; color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+    @media (max-width: 760px) { .layout { grid-template-columns: 1fr; } aside { position: static; } aside nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px; } header { align-items: flex-start; } .tag { display: none; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand"><div class="logo" aria-hidden="true">✦</div><div>ZINORA <span style="color:var(--cyan)">/</span> LIGHT RUSH</div></div>
+      <div class="tag">Player data · Privacy</div>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow">Player safety protocol</div>
+      <h1>Privacy <span>Policy</span></h1>
+      <p class="lead">This policy explains how information is collected, used, retained, and protected when you use Zinora: Light Rush and its related services.</p>
+      <div class="meta"><div class="pill">Effective date: October 13, 2026</div><div class="pill">Service Provider: Drexky</div></div>
+    </section>
+
+    <div class="layout">
+      <aside>
+        <strong>On this page</strong>
+        <nav aria-label="Privacy policy sections">
+          <a href="#collection">Information collection</a><a href="#tracking">Cookies & tracking</a>
+          <a href="#rights">Your rights</a><a href="#third-party">Third parties</a>
+          <a href="#transfers">International transfers</a><a href="#opt-out">Opt-out</a>
+          <a href="#retention">Data retention</a><a href="#children">Children</a>
+          <a href="#security">Security & breaches</a><a href="#changes">Policy changes</a>
+          <a href="#consent">Consent</a><a href="#contact">Contact</a>
+        </nav>
+      </aside>
+
+      <main>
+        <section class="section" id="collection">
+          <h2>Information Collection and Use</h2>
+          <p>The Application collects information when you download and use it. This information may include:</p>
+          <ul><li>Your device's Internet Protocol (IP) address</li><li>Pages of the Application you visit, and the date, time, and duration of your visits</li><li>The time spent using the Application</li><li>The mobile operating system you use</li></ul>
+          <p>The Service Provider may also ask you to provide certain personally identifiable information to improve your experience. Information requested through the Application will be retained and used as described in this policy.</p>
+          <p>The Service Provider may use information you provide to send important information, required notices, and—where permitted by law—marketing communications.</p>
+        </section>
+
+        <section class="section" id="tracking">
+          <h2>Cookies and Tracking Technologies</h2>
+          <p>The Application or its third-party SDKs may use cookies, SDKs, pixels, and similar technologies to support functionality, analytics, or service delivery. Where required by applicable law, the Service Provider will obtain consent before using non-essential tracking technologies.</p>
+        </section>
+
+        <section class="section" id="rights">
+          <h2>Your Rights</h2>
+          <p>You may request access to, correction of, or deletion of your personal data held by the Service Provider. You may also withdraw consent where processing is based on consent.</p>
+          <p>California residents may have the right to know what personal information is collected, request deletion, opt out of the sale or sharing of personal information, and receive non-discriminatory treatment for exercising their rights under CCPA/CPRA.</p>
+          <p>To make a request, contact <a href="mailto:sangdeptraihehe6@gmail.com">sangdeptraihehe6@gmail.com</a>.</p>
+        </section>
+
+        <section class="section" id="third-party">
+          <h2>Third Party Access</h2>
+          <p>Only aggregated, anonymized data is periodically transmitted to external services to help the Service Provider improve the Application and its services. Information may be shared with third parties as described in this policy.</p>
+          <p>The Application uses third-party services that have their own privacy policies, including:</p>
+          <ul><li>Google Play Services</li></ul>
+          <p>The Service Provider may disclose user-provided and automatically collected information:</p>
+          <ul><li>When required by law or legal process</li><li>When disclosure is reasonably believed necessary to protect rights or safety, investigate fraud, or respond to a government request</li><li>To trusted service providers working on the Service Provider's behalf who have agreed to follow this privacy statement and may not independently use the disclosed information</li></ul>
+        </section>
+
+        <section class="section" id="transfers">
+          <h2>International Data Transfers</h2>
+          <p>The Service Provider or its third-party service providers may transfer personal data to countries outside your country of residence, including outside the European Economic Area (EEA). Where required, appropriate safeguards may include:</p>
+          <ul><li>Standard Contractual Clauses approved by the European Commission</li><li>Adequacy decisions or other legally recognized transfer mechanisms</li><li>Your consent, where required and legally permitted</li></ul>
+          <p>Data protection laws may differ between jurisdictions. The Service Provider will apply safeguards and obtain consent where required by law.</p>
+        </section>
+
+        <section class="section" id="opt-out">
+          <h2>Opt-Out Rights</h2>
+          <p>You can stop further collection of information from your mobile device by uninstalling the Application. Uninstalling stops the Application from collecting data from your device, but does not automatically delete information already transmitted to the Service Provider or third parties.</p>
+          <p>To request deletion of personal data or withdraw consent, email <a href="mailto:sangdeptraihehe6@gmail.com">sangdeptraihehe6@gmail.com</a>.</p>
+        </section>
+
+        <section class="section" id="retention">
+          <h2>Data Retention Policy</h2>
+          <p>The Service Provider retains personal data according to its necessity for the stated purposes:</p>
+          <ul><li><strong>User-provided data:</strong> for the duration of your use of the Application plus 12 months, unless a longer period is required by law</li><li><strong>Automatically collected data:</strong> up to 24 months from collection, unless longer retention is required for legal compliance</li><li><strong>Aggregated and anonymized data:</strong> indefinitely, as it no longer identifies you</li><li><strong>Data required for legal compliance:</strong> for as long as applicable law requires</li></ul>
+          <p>You may request deletion of your personal data, subject to legal retention obligations. Some user-provided data may be required for the Application to function properly.</p>
+        </section>
+
+        <section class="section" id="children">
+          <h2>Children</h2>
+          <p>The Application is not intended for children under 16 years of age, or any higher age required by applicable law. The Service Provider does not knowingly solicit data from children or market the Application to them.</p>
+          <p>Where parental or guardian consent is required by law, the Application is not intended for use without that consent. If the Service Provider discovers that a child has provided personal information in violation of applicable law, it will delete that information from its servers. Parents or guardians may contact the Service Provider to request action.</p>
+        </section>
+
+        <section class="section" id="security">
+          <h2>Security and Data Breach Notification</h2>
+          <p>The Service Provider uses physical, electronic, and procedural safeguards intended to protect the confidentiality of information it processes and maintains.</p>
+          <p>If a data breach affects your personal data, the Service Provider will notify you in accordance with applicable legal requirements, including information about the nature of the breach and steps being taken where required.</p>
+        </section>
+
+        <section class="section" id="changes">
+          <h2>Changes to This Policy</h2>
+          <p>The Service Provider may update this Privacy Policy from time to time. Material changes will be announced by posting an updated policy with an effective date. Where required by law, consent will be sought before material changes take effect.</p>
+          <p>Previous versions are available on request by contacting the Service Provider.</p>
+        </section>
+
+        <section class="section" id="consent">
+          <h2>Your Consent</h2>
+          <p>Where processing is based on consent, you provide consent by affirmatively opting in to the relevant feature or action. You may withdraw consent at any time without affecting processing carried out before withdrawal. Processing based on other lawful bases is carried out as described in this policy.</p>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="contact"><div><h2>Contact Us</h2><p>Questions about privacy or the Application? Contact the Service Provider.</p><p><strong>Drexky</strong><br><a href="mailto:sangdeptraihehe6@gmail.com">sangdeptraihehe6@gmail.com</a></p></div><a class="contact-link" href="mailto:sangdeptraihehe6@gmail.com">Send an email ↗</a></div>
+        </section>
+      </main>
+    </div>
+
+    <footer><span>© 2026 Drexky · Zinora: Light Rush</span><span>Privacy Policy · Effective October 13, 2026</span></footer>
+  </div>
+</body>
+</html>
